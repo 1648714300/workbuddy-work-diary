@@ -1,0 +1,26 @@
+# 构建产物
+dist/
+build/
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 运行时数据（监控目录不入库，属个人数据）
+monitor/
+.selftest/
+workbench/
+
+# 日志与缓存
+*.log
+.cache/
+
+# 密钥与凭据（任何时候都不入库）
+*.token
+*.pem
+.env
+.env.*
+credentials*.json
